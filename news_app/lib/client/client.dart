@@ -6,8 +6,8 @@ class NetworkClient {
       authToken: null,
       isLog: true,
       isReleaseURL: true,
-      releaseBaseURL: "https://api.storerestapi.com",
-      testBaseURL: "https://api.storerestapi.com",
+      releaseBaseURL: "https://newsapi.org/v2",
+      testBaseURL: "https://newsapi.org/v2",
     );
   }
 }

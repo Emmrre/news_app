@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:news_app/screen/home/views/home_screen.dart';
 
 void main() {
+  WidgetsFlutterBinding.ensureInitialized();
   runApp(const MyApp());
 }
 
