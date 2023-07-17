@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:news_app/get_it/get_it.dart';
 import 'package:news_app/screen/home/views/home_screen.dart';
 
 void main() {
+  setupGetIT();
   WidgetsFlutterBinding.ensureInitialized();
   runApp(const MyApp());
 }
